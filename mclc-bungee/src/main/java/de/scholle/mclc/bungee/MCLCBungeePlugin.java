@@ -1,6 +1,6 @@
-package de.scholle.mclc.bungee;
+package de.scholle.lux.bungee;
 
-import de.scholle.mclc.bungee.serverlist.ServerListPingListener;
+import de.scholle.lux.bungee.serverlist.ServerListPingListener;
 import net.md_5.bungee.api.plugin.Plugin;
 import org.bstats.bungeecord.Metrics;
 
@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 
-public final class MCLCBungeePlugin extends Plugin {
+public final class LuxBungeePlugin extends Plugin {
 
     @Override
     public void onEnable() {

@@ -1,4 +1,4 @@
-package de.scholle.mclc.velocity;
+package de.scholle.lux.velocity;
 
 import com.google.inject.Inject;
 import com.velocitypowered.api.event.Subscribe;
@@ -8,8 +8,8 @@ import com.velocitypowered.api.plugin.annotation.DataDirectory;
 import com.velocitypowered.api.proxy.ProxyServer;
 import com.velocitypowered.api.proxy.server.ServerPing;
 import com.velocitypowered.api.util.Favicon;
-import de.scholle.mclc.common.IconFileService;
-import de.scholle.mclc.common.ServerListTextService;
+import de.scholle.lux.common.IconFileService;
+import de.scholle.lux.common.ServerListTextService;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.slf4j.Logger;
 import org.yaml.snakeyaml.Yaml;
@@ -23,8 +23,8 @@ import java.nio.file.StandardCopyOption;
 import java.util.HashMap;
 import java.util.Map;
 
-@Plugin(id = "mclc", name = "MCLC", version = "${version}", authors = { "Mobilestars" })
-public final class MCLCVelocityPlugin {
+@Plugin(id = "lux", name = "Lux", version = "${version}", authors = { "Mobilestars" })
+public final class LuxVelocityPlugin {
 
     private final ProxyServer proxyServer;
     private final Logger logger;
@@ -33,7 +33,7 @@ public final class MCLCVelocityPlugin {
     private final IconFileService iconFileService;
 
     @Inject
-    public MCLCVelocityPlugin(ProxyServer proxyServer, Logger logger, @DataDirectory Path dataDirectory) {
+    public LuxVelocityPlugin(ProxyServer proxyServer, Logger logger, @DataDirectory Path dataDirectory) {
         this.proxyServer = proxyServer;
         this.logger = logger;
         this.dataDirectory = dataDirectory;

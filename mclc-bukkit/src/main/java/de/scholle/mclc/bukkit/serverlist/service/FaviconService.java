@@ -1,6 +1,6 @@
-package de.scholle.mclc.bukkit.serverlist.service;
+package de.scholle.lux.bukkit.serverlist.service;
 
-import de.scholle.mclc.common.IconFileService;
+import de.scholle.lux.common.IconFileService;
 import org.bukkit.Bukkit;
 import org.bukkit.event.server.ServerListPingEvent;
 import org.bukkit.plugin.java.JavaPlugin;

@@ -1,8 +1,8 @@
-package de.scholle.mclc.bukkit.serverlist.listener;
+package de.scholle.lux.bukkit.serverlist.listener;
 
-import de.scholle.mclc.bukkit.serverlist.service.FaviconService;
-import de.scholle.mclc.bukkit.serverlist.service.PlaceholderService;
-import de.scholle.mclc.common.ServerListTextService;
+import de.scholle.lux.bukkit.serverlist.service.FaviconService;
+import de.scholle.lux.bukkit.serverlist.service.PlaceholderService;
+import de.scholle.lux.common.ServerListTextService;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;

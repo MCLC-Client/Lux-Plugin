@@ -1,8 +1,8 @@
-package de.scholle.mclc.serverlist;
+package de.scholle.lux.serverlist;
 
-import de.scholle.mclc.serverlist.listener.ServerListPingListener;
-import de.scholle.mclc.serverlist.service.FaviconService;
-import de.scholle.mclc.serverlist.service.PlaceholderService;
+import de.scholle.lux.serverlist.listener.ServerListPingListener;
+import de.scholle.lux.serverlist.service.FaviconService;
+import de.scholle.lux.serverlist.service.PlaceholderService;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ServerListBootstrap {

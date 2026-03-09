@@ -1,4 +1,4 @@
-package de.scholle.mclc.serverlist.service;
+package de.scholle.lux.serverlist.service;
 
 import org.bukkit.OfflinePlayer;
 import org.bukkit.plugin.PluginManager;

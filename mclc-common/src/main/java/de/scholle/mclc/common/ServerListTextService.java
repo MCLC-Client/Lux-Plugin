@@ -1,4 +1,4 @@
-package de.scholle.mclc.common;
+package de.scholle.lux.common;
 
 import java.util.Map;
 

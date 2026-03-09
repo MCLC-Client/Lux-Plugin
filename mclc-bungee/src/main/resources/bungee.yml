@@ -1,5 +1,5 @@
-name: MCLC
+name: Lux
 version: '${version}'
-main: de.scholle.mclc.bungee.MCLCBungeePlugin
+main: de.scholle.lux.bungee.LuxBungeePlugin
 author: Mobilestars
-description: The official Plugin of MCLC.
+description: The official Plugin of Lux.

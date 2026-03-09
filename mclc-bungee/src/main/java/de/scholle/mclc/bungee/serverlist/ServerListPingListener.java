@@ -1,7 +1,7 @@
-package de.scholle.mclc.bungee.serverlist;
+package de.scholle.lux.bungee.serverlist;
 
-import de.scholle.mclc.common.IconFileService;
-import de.scholle.mclc.common.ServerListTextService;
+import de.scholle.lux.common.IconFileService;
+import de.scholle.lux.common.ServerListTextService;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.Favicon;
 import net.md_5.bungee.api.ProxyServer;
@@ -13,7 +13,7 @@ import net.md_5.bungee.event.EventHandler;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
-import de.scholle.mclc.bungee.MCLCBungeePlugin;
+import de.scholle.lux.bungee.LuxBungeePlugin;
 
 import javax.imageio.ImageIO;
 import java.io.File;
@@ -22,11 +22,11 @@ import java.util.Map;
 
 public final class ServerListPingListener implements Listener {
 
-    private final MCLCBungeePlugin plugin;
+    private final LuxBungeePlugin plugin;
     private final ServerListTextService textService;
     private final IconFileService iconFileService;
 
-    public ServerListPingListener(MCLCBungeePlugin plugin) {
+    public ServerListPingListener(LuxBungeePlugin plugin) {
         this.plugin = plugin;
         this.textService = new ServerListTextService();
         this.iconFileService = new IconFileService();

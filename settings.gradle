@@ -1,2 +1,2 @@
-rootProject.name = 'MCLC'
-include 'mclc-common', 'mclc-bukkit', 'mclc-bungee', 'mclc-velocity'
+rootProject.name = 'Lux'
+include 'lux-common', 'lux-bukkit', 'lux-bungee', 'lux-velocity'

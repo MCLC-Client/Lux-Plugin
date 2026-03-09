@@ -1,9 +1,9 @@
-name: MCLC
+name: Lux
 version: '${version}'
-main: de.scholle.mclc.MCLC
-prefix: MCLC
+main: de.scholle.lux.Lux
+prefix: Lux
 load: STARTUP
 authors: [ Mobilestars ]
-description: The official Plugin of MCLC.
-website: mclc.pluginhub.de
+description: The official Plugin of Lux.
+website: lux.pluginhub.de
 softdepend: [ PlaceholderAPI ]
